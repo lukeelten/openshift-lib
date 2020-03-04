@@ -1,0 +1,17 @@
+varReference:
+
+nameReference:
+- kind: Service
+  fieldSpecs:
+  - path: spec/to/name
+    kind: Route
+- kind: ServiceAccount
+  fieldSpecs:
+  - path: spec/template/spec/serviceAccount
+    kind: Deployment
+  - path: spec/template/spec/serviceAccountName
+    kind: Deployment
+  - path: spec/template/spec/serviceAccount
+    kind: StatefulSet
+  - path: spec/template/spec/serviceAccountName
+    kind: StatefulSet
