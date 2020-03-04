@@ -6,6 +6,7 @@ spec:
   podManagementPolicy: OrderedReady
   replicas: 1
   revisionHistoryLimit: 10
+  volumeClaimTemplates: []
   updateStrategy:
     type: RollingUpdate
   serviceName: keycloak
