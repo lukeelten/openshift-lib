@@ -75,9 +75,9 @@ spec:
         - name: ELASTICSEARCH_PORT
           value: "443"
         - name: ELASTICSEARCH_USERNAME
-          value: elasticsearch
+          value: ""
         - name: ELASTICSEARCH_PASSWORD
-          value: "aökshdfKUGED98zw3P)(Zlkajdbf"
+          value: ""
         - name: NODE_NAME
           valueFrom:
             fieldRef:
